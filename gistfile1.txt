@@ -7,6 +7,6 @@ print(f'A vogal O aparece {frase.lower().count("o")} vezes')
 print(f'A vogal U aparece {frase.lower().count("u")} vezes')
 
 print(f'A primeira letra é {(frase.lstrip())[0]}')
-print(f'A ultima letra é {frase[len(frase) -1] }')
+print(f'A ultima letra é {frase[(len(frase.rstrip()) -1)]} ')
 
 print(f'É formada por {frase.count(" ") + 1} palavras')
